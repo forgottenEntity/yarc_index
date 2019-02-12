@@ -1,13 +1,12 @@
 %%%-------------------------------------------------------------------
-%%% @author chris
-%%% @copyright (C) 2019, <COMPANY>
+%%% @author forgottenEntity
 %%% @doc
 %%%
 %%% @end
 %%% Created : 12. Feb 2019 19:22
 %%%-------------------------------------------------------------------
 -module(yarc_index_descriptor).
--author("chris").
+-author("forgottenEntity").
 
 %% API
 -export([new/1,
