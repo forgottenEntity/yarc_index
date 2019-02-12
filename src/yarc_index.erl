@@ -22,6 +22,11 @@
 %%====================================================================
 
 add_entry(IndexName, Key, IndexEntry) ->
+  IndexDescriptor = get_descriptor(IndexName),
+  IndexRecordCount = yarc_index_descriptor:get_index_record_count(IndexDescriptor),
+  IndexPlacement = erlang:phash2(Key, IndexRecordCount),
+
+  %% riak maps with siblings resolution needed here!!
   ok.
 
 delete_entry(IndexName, Key) ->
