@@ -1,0 +1,19 @@
+%%%-------------------------------------------------------------------
+%%% @author ForgottenEntity
+%%% @doc
+%%%
+%%% @end
+%%% Created : 29. Jan 2019 00:25
+%%%-------------------------------------------------------------------
+{application, yarc_index, [
+  {description, "YARC Index Library"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib,
+    lager
+  ]},
+  {modules, []},
+  {env, []}
+]}.
